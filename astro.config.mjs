@@ -12,16 +12,52 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "Guides",
+					label: "Hello Vulpy",
+					collapsed: true,
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: "Example Guide", slug: "guides/example" },
+						{
+							label: "Comment ça marche ?",
+							slug: "home/how-to-use",
+						},
 					],
 				},
 				{
-					label: "Reference",
-					autogenerate: { directory: "reference" },
+					label: "Les bases du web",
+					items: [
+						{
+							label: "Introduction",
+							slug: "bases/introduction",
+						},
+						{
+							label: "HTML",
+							slug: "bases/html",
+							badge: {
+								text: "WIP",
+								variant: "caution",
+							},
+						},
+						{
+							label: "CSS",
+							slug: "bases/css",
+							badge: {
+								text: "WIP",
+								variant: "caution",
+							},
+						},
+						{
+							label: "JavaScript",
+							slug: "bases/javascript",
+							badge: {
+								text: "WIP",
+								variant: "caution",
+							},
+						},
+					],
 				},
+				// {
+				// 	label: "Reference",
+				// 	autogenerate: { directory: "reference" },
+				// },
 			],
 		}),
 	],
