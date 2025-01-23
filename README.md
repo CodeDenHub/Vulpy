@@ -56,7 +56,4 @@ Si ce projet vous a aidé, **n'hésitez pas à laisser une étoile ⭐ sur GitHu
 
 ### 📌 Licence
 
-```
-MIT License
-© 2024 Anthony Gorski
-```
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
