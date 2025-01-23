@@ -1,54 +1,62 @@
-# Starlight Starter Kit: Basics
+# Bienvenue sur Vulpy 🦊
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+[![Twitter: Gorski_anthony](https://img.shields.io/twitter/follow/Gorski_anthony.svg?style=social)](https://twitter.com/Gorski_anthony)
 
-```
-npm create astro@latest -- --template starlight
-```
+## 📖 À propos
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+**Vulpy** est un projet open-source destiné à la documentation sur les bases du développement web.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🚀 Version actuelle : **v0.0.1**
 
-## 🚀 Project Structure
+## 🛠️ Installation
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```sh
+npm install
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🚀 Utilisation
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+```sh
+npm run dev
+```
 
-Static assets, like favicons, can be placed in the `public/` directory.
+## 🎯 Fonctionnalités
 
-## 🧞 Commands
+-   ✅ Création du projet
+-   ✅ Mettre en place l'environnement de développement
+-   🔜 Créer la documentation pour la collaboration
 
-All commands are run from the root of the project, from a terminal:
+## 🖼️ Aperçu
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+![Aperçu](./src/assets/screen.png)
 
-## 👀 Want to learn more?
+## 🤝 Contribution
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Les contributions sont les bienvenues ! Voici comment participer :
+
+1. **Fork** le projet
+2. Crée une **branche feature** (`git checkout -b feature/ma-feature`)
+3. **Commits** tes changements (`git commit -m 'Ajout de ma feature'`)
+4. **Push** ta branche (`git push origin feature/ma-feature`)
+5. **Ouvre une Pull Request** 🎉
+
+## 👤 Auteur
+
+👨‍💻 **Anthony Gorski**
+
+-   𝕏 (Twitter) : [@Gorski_Anthony](https://twitter.com/Gorski_Anthony)
+-   GitHub : [@GorskiAnthony](https://github.com/GorskiAnthony)
+
+## ⭐ Affichez votre soutien
+
+Si ce projet vous a aidé, **n'hésitez pas à laisser une étoile ⭐ sur GitHub** !
+
+---
+
+### 📌 Licence
+
+```
+MIT License
+© 2024 Anthony Gorski
+```
